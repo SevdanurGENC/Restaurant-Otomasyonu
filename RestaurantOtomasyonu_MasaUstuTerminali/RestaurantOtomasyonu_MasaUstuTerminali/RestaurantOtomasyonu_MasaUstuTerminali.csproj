@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7EFEC144-CAA2-4424-A79F-57D210F82820}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RestaurantOtomasyonu_MasaUstuTerminali</RootNamespace>
+    <AssemblyName>RestaurantOtomasyonu_MasaUstuTerminali</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="KontrolPaneliAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KontrolPaneliAdmin.Designer.cs">
+      <DependentUpon>KontrolPaneliAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KontrolPaneliAsci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KontrolPaneliAsci.Designer.cs">
+      <DependentUpon>KontrolPaneliAsci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KontrolPaneliKasiyer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KontrolPaneliKasiyer.Designer.cs">
+      <DependentUpon>KontrolPaneliKasiyer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciGirisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciGirisi.Designer.cs">
+      <DependentUpon>KullaniciGirisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RestaurantOtomasyonuDataSet.cs">
+      <DependentUpon>RestaurantOtomasyonuDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RestaurantOtomasyonuDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestaurantOtomasyonuDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestaurantOtomasyonuDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestaurantOtomasyonuDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestaurantOtomasyonuDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestaurantOtomasyonuDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestaurantOtomasyonuDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestaurantOtomasyonuDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestaurantOtomasyonuDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestaurantOtomasyonuDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestaurantOtomasyonuDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestaurantOtomasyonuDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestaurantOtomasyonuDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestaurantOtomasyonuDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestaurantOtomasyonuDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestaurantOtomasyonuDataSet7.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="KontrolPaneliAdmin.resx">
+      <DependentUpon>KontrolPaneliAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KontrolPaneliAsci.resx">
+      <DependentUpon>KontrolPaneliAsci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KontrolPaneliKasiyer.resx">
+      <DependentUpon>KontrolPaneliKasiyer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciGirisi.resx">
+      <DependentUpon>KullaniciGirisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="RestaurantOtomasyonuDataSet.xsc">
+      <DependentUpon>RestaurantOtomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestaurantOtomasyonuDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet.xss">
+      <DependentUpon>RestaurantOtomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet1.xsc">
+      <DependentUpon>RestaurantOtomasyonuDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestaurantOtomasyonuDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet1.xss">
+      <DependentUpon>RestaurantOtomasyonuDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet2.xsc">
+      <DependentUpon>RestaurantOtomasyonuDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestaurantOtomasyonuDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet2.xss">
+      <DependentUpon>RestaurantOtomasyonuDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet3.xsc">
+      <DependentUpon>RestaurantOtomasyonuDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestaurantOtomasyonuDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet3.xss">
+      <DependentUpon>RestaurantOtomasyonuDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet4.xsc">
+      <DependentUpon>RestaurantOtomasyonuDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestaurantOtomasyonuDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet4.xss">
+      <DependentUpon>RestaurantOtomasyonuDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet5.xsc">
+      <DependentUpon>RestaurantOtomasyonuDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestaurantOtomasyonuDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet5.xss">
+      <DependentUpon>RestaurantOtomasyonuDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet6.xsc">
+      <DependentUpon>RestaurantOtomasyonuDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestaurantOtomasyonuDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet6.xss">
+      <DependentUpon>RestaurantOtomasyonuDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet7.xsc">
+      <DependentUpon>RestaurantOtomasyonuDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestaurantOtomasyonuDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestaurantOtomasyonuDataSet7.xss">
+      <DependentUpon>RestaurantOtomasyonuDataSet7.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Logo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

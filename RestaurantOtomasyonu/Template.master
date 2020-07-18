@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Template.master.cs" Inherits="Template" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style2
+        {
+            height: 186px;
+            text-align: center;
+        }
+        .style1
+        {
+            width: 1349px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table>
+        <tr>
+            <td bgcolor="Maroon" class="style2" colspan="2">
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/Logo.png" 
+                    style="text-align: center" />
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="Black" class="style3" colspan="2">
+                <asp:Menu ID="Menu2" runat="server" Font-Bold="True" ForeColor="White" 
+                    Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem Text="Ana Sayfa" Value="Ana Sayfa"></asp:MenuItem>
+                        <asp:MenuItem Text="Hakkimizda" Value="Hakkimizda"></asp:MenuItem>
+                        <asp:MenuItem Text="Iletisim" Value="Iletisim"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/YeniUyeKayit.aspx" Text="Yeni Uye Kayit" 
+                            Value="Yeni Uye Kayit"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="#293955" class="style4" valign="top">
+                <asp:Menu ID="Menu1" runat="server" Font-Bold="True" ForeColor="White" 
+                    onmenuitemclick="Menu1_MenuItemClick">
+                    <Items>
+                        <asp:MenuItem Text="Siparis Verme Ekrani" Value="Siparis Verme Ekrani" 
+                            NavigateUrl="~/SiparisVermeEkrani.aspx" >
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Onceki Siparislerim" Value="Onceki Siparislerim" 
+                            NavigateUrl="~/OncekiSiparislerim.aspx">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Kisisel Bilgilerim" Value="Kisisel Bilgilerim" 
+                            NavigateUrl="~/KisiselBilgilerim.aspx">
+                        </asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </td>
+            <td class="style1" bgcolor="#C0CAD9">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="Black" class="style4" colspan="2">
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td bgcolor="Maroon" class="style4" colspan="2">
+                &nbsp;</td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

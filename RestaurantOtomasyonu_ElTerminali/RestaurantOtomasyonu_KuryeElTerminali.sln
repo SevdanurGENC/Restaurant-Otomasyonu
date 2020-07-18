@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantOtomasyonu_ElTerminali", "RestaurantOtomasyonu_ElTerminali\RestaurantOtomasyonu_ElTerminali.csproj", "{61B9F930-EEC2-40B9-ADC6-63A3B43E5310}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CF3D994E-0BA0-4063-8E41-68EA9663DE9F} = {CF3D994E-0BA0-4063-8E41-68EA9663DE9F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElTerminaliService", "ElTerminaliService\ElTerminaliService.csproj", "{CF3D994E-0BA0-4063-8E41-68EA9663DE9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61B9F930-EEC2-40B9-ADC6-63A3B43E5310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B9F930-EEC2-40B9-ADC6-63A3B43E5310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B9F930-EEC2-40B9-ADC6-63A3B43E5310}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{61B9F930-EEC2-40B9-ADC6-63A3B43E5310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B9F930-EEC2-40B9-ADC6-63A3B43E5310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B9F930-EEC2-40B9-ADC6-63A3B43E5310}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CF3D994E-0BA0-4063-8E41-68EA9663DE9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF3D994E-0BA0-4063-8E41-68EA9663DE9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF3D994E-0BA0-4063-8E41-68EA9663DE9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF3D994E-0BA0-4063-8E41-68EA9663DE9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

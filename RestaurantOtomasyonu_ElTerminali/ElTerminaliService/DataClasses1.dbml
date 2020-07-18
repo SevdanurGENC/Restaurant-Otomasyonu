@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="RestaurantOtomasyonu" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SEVDANUR-PC\NANO;Initial Catalog=RestaurantOtomasyonu;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="RestaurantOtomasyonuConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Tbl_AltMenuler" Member="Tbl_AltMenulers">
+    <Type Name="Tbl_AltMenuler">
+      <Column Name="ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AltMenuID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AltMenuAdi" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Fiyat" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AnaMenuID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tbl_AnaMenuler" Member="Tbl_AnaMenulers">
+    <Type Name="Tbl_AnaMenuler">
+      <Column Name="ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MenuID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MenuAdi" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tbl_Kullanicilar" Member="Tbl_Kullanicilars">
+    <Type Name="Tbl_Kullanicilar">
+      <Column Name="ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KullaniciAdi" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Sifre" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Isim" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Soyisim" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Adres" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="YetkiID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KullaniciID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tbl_Siparisler" Member="Tbl_Siparislers">
+    <Type Name="Tbl_Siparisler">
+      <Column Name="ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SiparisID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MenuID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AltMenuID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Adet" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Fiyat" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SiparisZamani" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Aciklama" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="EkIstekler" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="MasaID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KullaniciID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GenelToplam" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TahsilatDurumu" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="WebSiparisiMi" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="TahsilatYapanKullaniciID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MasaSiparisiMi" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SiparisHazirMi" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="HesapIstendiMi" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

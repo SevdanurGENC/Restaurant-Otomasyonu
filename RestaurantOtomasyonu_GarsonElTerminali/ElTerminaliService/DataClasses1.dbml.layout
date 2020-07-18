@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses1">
+  <DataContextMoniker Name="/DataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="24775f8c-6582-4840-b025-6addbdf33cf1" absoluteBounds="3.75, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DataClasses1DataContext/Tbl_AnaMenuler" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a55c345c-6e8c-4307-bb76-d9d1b290cb60" absoluteBounds="3.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fa53a4a6-77d1-4990-b217-aa494f4834d0" absoluteBounds="3.75, 3.75, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/DataClasses1DataContext/Tbl_AltMenuler" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dc054525-1d0d-4c00-9939-b8c76b4cff33" absoluteBounds="3.765, 4.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e775b0c1-8dc4-4bef-9201-1d00ab790900" absoluteBounds="6.75, 0.75, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/DataClasses1DataContext/Tbl_Kullanicilar" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d28c8305-d59a-45f6-aecf-aaa6e721da38" absoluteBounds="6.765, 1.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a899fdb1-9fbe-4773-b8fa-74e61f4e2c89" absoluteBounds="0.75, 6.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/DataClasses1DataContext/Tbl_Masalar" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c31ae99a-ca07-42ef-8197-623d0b50be75" absoluteBounds="0.765, 7.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="573939ac-d2cb-45ec-9334-2dd5e71e7995" absoluteBounds="1.625, 0.625, 2, 4.2708154296875">
+      <DataClassMoniker Name="/DataClasses1DataContext/Tbl_Siparisler" />
+      <nestedChildShapes>
+        <elementListCompartment Id="444e1034-60b6-4dab-80a6-337de3fc150c" absoluteBounds="1.6400000000000001, 1.085, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

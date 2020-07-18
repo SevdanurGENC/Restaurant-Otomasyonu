@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElTerminaliService", "ElTerminaliService\ElTerminaliService.csproj", "{351C7D7B-B078-4C0D-92FF-8063C17F1718}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantOtomasyonu_GarsonElTerminali", "RestaurantOtomasyonu_GarsonElTerminali\RestaurantOtomasyonu_GarsonElTerminali.csproj", "{708F434C-CB64-440F-B447-A45949BB89F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{351C7D7B-B078-4C0D-92FF-8063C17F1718} = {351C7D7B-B078-4C0D-92FF-8063C17F1718}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{351C7D7B-B078-4C0D-92FF-8063C17F1718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351C7D7B-B078-4C0D-92FF-8063C17F1718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351C7D7B-B078-4C0D-92FF-8063C17F1718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351C7D7B-B078-4C0D-92FF-8063C17F1718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708F434C-CB64-440F-B447-A45949BB89F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708F434C-CB64-440F-B447-A45949BB89F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708F434C-CB64-440F-B447-A45949BB89F4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{708F434C-CB64-440F-B447-A45949BB89F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708F434C-CB64-440F-B447-A45949BB89F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708F434C-CB64-440F-B447-A45949BB89F4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ElTerminaliService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ElTerminaliService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfTbl_Kullanicilar">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Tbl_Kullanicilar" nillable="true" type="tns:Tbl_Kullanicilar" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTbl_Kullanicilar" nillable="true" type="tns:ArrayOfTbl_Kullanicilar" />
+  <xs:complexType name="Tbl_Kullanicilar">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Adres" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Isim" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="KullaniciAdi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="KullaniciID" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Sifre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Soyisim" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="YetkiID" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Tbl_Kullanicilar" nillable="true" type="tns:Tbl_Kullanicilar" />
+  <xs:complexType name="ArrayOfSiparisListesi">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SiparisListesi" nillable="true" type="tns:SiparisListesi" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSiparisListesi" nillable="true" type="tns:ArrayOfSiparisListesi" />
+  <xs:complexType name="SiparisListesi">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Aciklama" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Adet" type="xs:int" />
+      <xs:element minOccurs="0" name="AltMenuAdi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EkIstekler" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GenelToplam" type="xs:int" />
+      <xs:element minOccurs="0" name="Isim" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MasaAdi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MasaNo" type="xs:int" />
+      <xs:element minOccurs="0" name="MenuAdi" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SiparisZamani" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Soyisim" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SiparisListesi" nillable="true" type="tns:SiparisListesi" />
+</xs:schema>
